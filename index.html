@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Reconoce el lenguaje, tildes acentos...-->
+<meta charset="utf-8">
+
+<!--Detecta diferentes tamaños de dispositivos-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Escuela de Arte Culinario Argentino</title>
+
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS JavaScript-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<!--Fontawesome-->
+<script src="https://kit.fontawesome.com/11dd0564b5.js" crossorigin="anonymous"></script>
+
+<!--css propio-->
+<link rel="stylesheet" type="text/css" href="css/Estilos.css">
+	
+</head>
+
+<body>
+<!--Header/Navegador-->
+<header>
+	<!--Navegacion con Bootstrap-->
+        <nav class="navbar navbar-expand-lg auto-hide navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Escuela de Arte Culinario Argentino</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                        aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href="#">Nuestra Escuela</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="expandible" role="button" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Carreras
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="expandible">
+                        <a class="dropdown-item" href="#">Profesional Gastronómico</a>
+                        <a class="dropdown-item" href="#">Sommelier Profesional</a>
+                        <a class="dropdown-item" href="#">Panadero Profesional</a>
+                        <a class="dropdown-item" href="#">Pastelero Profesional</a>
+
+                    </div>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="expandible" role="button" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Especializaciones
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="expandible">
+                        <a class="dropdown-item" href="#">Licenciatura Gastronómica</a>
+                        <a class="dropdown-item" href="#">Técnico Superior en Gastronomía</a>
+                        <a class="dropdown-item" href="#">Cocinero Profesional</a>
+                        
+                    </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="expandible" role="button" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cursos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="expandible">
+                        <a class="dropdown-item" href="#">Cocina y Catering</a>
+                        <a class="dropdown-item" href="#">Cocina Vegana</a>
+                        <a class="dropdown-item" href="#">Sushi</a>
+                        <a class="dropdown-item" href="#">Idiomas</a>
+                        
+                    </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="expandible" role="button" 
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Seminarios
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="expandible">
+                        <a class="dropdown-item" href="#">Cocina Arabe</a>
+                        <a class="dropdown-item" href="#">Nutrición</a>
+                        <a class="dropdown-item" href="#">Pastelería Creativa</a>
+                        <a class="dropdown-item" href="#">Fotografía Gastronómica</a>
+                    </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Alumnos EACA</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+</header>
+
+<!--Banner-->
+<div class="container-fluid">
+	<div class="row">
+		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  			<div class="carousel-inner">
+    			<div class="carousel-item oscurecer active">
+      				<img class="d-block w-100 h-100" src="https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg" alt="First slide">
+      				<div class="carousel-caption caption-arriba">
+    					<h5>¿Te gusta la gastronomía?</h5>
+    				</div>
+  					<div class="carousel-caption caption-abajo">
+						<p>¿Qué estas esperando?</p>
+						<a href="..."target="_blank">¡Empeza ya!</a>
+					</div>
+    			</div>
+    			<div class="carousel-item oscurecer">
+      				<img class="d-block w-100 h-100" src="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg" alt="Second slide">
+      				<div class="carousel-caption caption-arriba">
+    					<h5>¿Te gusta la gastronomía?</h5>
+    				</div>
+  					<div class="carousel-caption caption-abajo">
+						<p>¿Qué estas esperando?</p>
+						<a href="#"target="_blank">¡Empeza ya!</a>
+					</div>
+    			</div>
+    			<div class="carousel-item oscurecer">
+      				<img class="d-block w-100 h-100" src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg" alt="Second slide">
+      				<div class="carousel-caption caption-arriba">
+    					<h5>¿Te gusta la gastronomía?</h5>
+    				</div>
+  					<div class="carousel-caption caption-abajo">
+						<p>¿Qué estas esperando?</p>
+						<a href="#"target="_blank">¡Empeza ya!</a>
+					</div>
+    			</div>
+    			<div class="carousel-item oscurecer">
+      				<img class="d-block w-100 h-100" src="https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage1920108050-50-Full-EnglishBreakfast.jpg" alt="Third slide">
+      				<div class="carousel-caption caption-arriba">
+    					<h5>¿Te gusta la gastronomía?</h5>
+    				</div>
+  					<div class="carousel-caption caption-abajo">
+						<p>¿Qué estas esperando?</p>
+						<a href="#"target="_blank">¡Empeza ya!</a>
+					</div>
+    			</div>
+    			<div class="carousel-item">
+      				<img class="d-block w-100 h-100" src="https://images.pexels.com/photos/574111/pexels-photo-574111.jpeg" alt="Third slide">
+      				<div class="carousel-caption caption-arriba">
+    					<h5>¿Te gusta la gastronomía?</h5>
+    				</div>
+  					<div class="carousel-caption caption-abajo">
+						<p>¿Qué estas esperando?</p>
+						<a href="#"target="_blank">¡Empeza ya!</a>
+					</div>
+    			</div>
+    		</div>
+  			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+	</div> 
+
+<!--Card/Tarjeta Texto-imagen-->
+<div class="row">
+	<div class="card-presentación col-12">
+  		<div class="row">
+  		<div class="col-3">
+    		<h2>El Arte Culinario</h2>
+    		<p>Es un verdadero placer darles la bienvenida a la Escuela de Arte Culinario Argentino. Esta institución nace, hace algunos años, por iniciativa de un grupo de personas que veíamos la necesidad de acompañar el crecimiento turístico y hotelero de nuestro país con una jerarquización de la gastronomía argentina. Durante mucho tiempo, los grandes chefs argentinos se vieron en la necesidad de formarse en el exterior, debido a la falta de una escuela que estuviera a la altura de sus requerimientos y expectativas.Hoy ese lugar existe y es la Escuela de Arte Culinario Argentino.
+    		El EACA es más que una simple escuela de cocina. Encarna la esencia de la cultura del arte culinario a través de su misión educativa. Es tanto un símbolo de fina tradición culinaria, como de institución de enseñanza profesional gastronómica. Por eso, si estás buscando excelencia, el EACA es la mejor elección para tu futuro. Espero que disfruten la visita a nuestro website, aunque ella no reemplazará la visita personal a nuestra escuela, a la cual, desde ya, están cordialmente invitados.</p>
+  		</div>
+		<div class="col-9">
+		<div class="h-100 row">
+			<div class="bricks col-md-7" style="background-image: url(https://images.pexels.com/photos/533339/pexels-photo-533339.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+			</div>
+			<div class="pr-0 col-md-5">
+				<div class="h-50 row">
+					<div class="bricks col-12" style="background-image: url(https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+					</div>
+				</div>
+				<div class="h-50 row">
+					<div class="bricks col-12" style="background-image: url(https://images.pexels.com/photos/277253/pexels-photo-277253.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+	</div>
+</div>
+
+<!--Images/imagenes-->
+<div class="row imagenes">
+	<div class="col-3 ser-chef position-relative" style="background-image:linear-gradient(rgb(0 0 0 / 6%), rgb(0 0 0 / 8%)),url(https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage48036050-50-LC-souffle-2020.jpg)">
+		<h3 class="position-absolute"><em>Ser Chef es...</em></h3>
+		<h2 class="position-absolute"><em>Inspiración</em></h2>
+	</div>
+	<div class="col-3 ser-chef position-relative" style="background-image:linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage48036050-50-LC-dish-2020.jpg)">
+		<h3 class="position-absolute" ><em>Ser Chef es...</em></h3>
+		<h2 class="position-absolute" ><em>Creatividad</em></h2>
+	</div>
+	<div class="col-3 ser-chef position-relative" style="background-image:linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage48036050-50-Petrus-January-2020.jpg)">
+		<h3 class="position-absolute" ><em>Ser Chef es...</em></h3>
+		<h2 class="position-absolute" ><em>Técnica</em></h2>
+	</div>
+	<div class="col-3 ser-chef position-relative" style="background-image:linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage48036050-50-HSK-Turkey-Wellington-1400px.jpg)">
+		<h3 class="position-absolute" ><em>Ser Chef es...</em></h3>
+		<h2 class="position-absolute" ><em>Agasajar</em></h2>
+	</div>
+	<div class="col-3 ser-chef position-relative" style="background-image:linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage48036050-50-RGR-summer-2019-cherry-dessert.jpg)">
+		<h3 class="position-absolute" ><em>Ser Chef es...</em></h3>
+		<h2 class="position-absolute" ><em>Aprender</em></h2>
+	</div>
+	<div class="col-3 ser-chef position-relative" style="background-image:linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage48036050-50-BSK-Mothers-Day-Roast-.jpg)">
+		<h3 class="position-absolute" ><em>Ser Chef es...</em></h3>
+		<h2 class="position-absolute" ><em>Vanguardia</em></h2>
+	</div>
+	<div class="col-3 ser-chef position-relative" style="background-image:linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://images.pexels.com/photos/2567854/pexels-photo-2567854.png?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+		<h3 class="position-absolute" ><em>Ser Chef es...</em></h3>
+		<h2 class="position-absolute" ><em>Pasión</em></h2>
+	</div>
+	<div class="col-3 ser-chef position-relative" style="background-image:linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://www.gordonramsayrestaurants.com/assets/Uploads/_resampled/CroppedFocusedImage1920108050-50-Petrus-fish-dish-with-samphire-DESKTOP.jpg)">
+		<h3 class="position-absolute" ><em>Ser Chef es...</em></h3>
+		<h2 class="position-absolute" ><em>EACA</em></h2>
+	</div>
+</div>
+
+<!--Card/tarjeta Ofertas academicas-->
+<div class="row ofertas-academicas">
+	<h2 class="col-12">Ofertas Academicas</h2>
+</div>
+	<div class="h-50 row">
+		<div class="ofertas-academicas col-3 position-relative" style="background-image: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://images.pexels.com/photos/4253312/pexels-photo-4253312.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+  			<a class="ofertas-academicas position-absolute" href="#" target="_blank">Carreras</a>
+  		</div>
+		<div class="ofertas-academicas col-3 position-relative" style="background-image: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://images.pexels.com/photos/671956/pexels-photo-671956.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+			<a class="position-absolute" href="#" target="_blank">Especializaciones</a>
+		</div>
+		<div class="ofertas-academicas col-3 position-relative" style="background-image: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://images.pexels.com/photos/784633/pexels-photo-784633.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+			<a class="position-absolute" href="#" target="_blank">Cursos</a>
+		</div>
+		<div class="ofertas-academicas col-3 position-relative" style="background-image: linear-gradient(rgb(0 0 0 / 10%), rgb(0 0 0 / 11%)), url(https://images.pexels.com/photos/3983573/pexels-photo-3983573.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)">
+			<a class="position-absolute" href="#" target="_blank">Seminarios</a>
+		</div>
+	</div>
+
+<!--Cuestionario-->
+<div class="row justify-content-center">
+    <div class="col-12 col-md-6 mt-md-4">
+        <form>
+            <div class="form-group row">
+              <label for="nombre" class="col-4 col-form-label">Nombre</label> 
+              <div class="col-8">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    </div>
+                  </div> 
+                  <input id="nombre" name="nombre" placeholder="Tu Nombre" type="text" required="required" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="email" class="col-4 col-form-label">Email</label> 
+              <div class="col-8">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fa fa-envelope-square" aria-hidden="true"></i>
+                    </div>
+                  </div> 
+                  <input id="email" name="email" placeholder="email@ejemplo.com" type="text" required="required" class="form-control">
+                </div>
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="consulta" class="col-4 col-form-label">Tu Consulta</label> 
+              <div class="col-8">
+                <textarea id="consulta" name="consulta" cols="40" rows="3" required="required" class="form-control"></textarea>
+              </div>
+            </div> 
+            <div class="form-group row">
+              <div class="offset-4 col-8">
+                <button name="submit" type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </div>
+          </form>
+    </div>
+</div>
+
+<!--Footer/pie de pagina-->
+<div class="row footer">
+	<div class="seguinos col-12">
+		<h2>Seguinos</h2>
+	</div>
+	<div class="col-12 links">
+		<a href="#" target="_blank">	
+			<i class="fab fa-facebook-square"></i>
+		</a>
+		<a href="#" target="_blank">
+			<i class="fab fa-instagram"></i>
+		</a>
+		<a href="#" target="_blank">
+			<i class="fab fa-twitter"></i>
+		</a>
+		<a href="#" target="_blank">
+			<i class="fab fa-youtube-square"></i>
+		</a>
+	</div>
+</div>
+</div> 
+</body>
+</html>
