@@ -1,0 +1,61 @@
+.carousel-item{
+	max-height: 516px;
+}
+
+.oscurecer:after{
+	content:"";
+	display:block;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #000;
+	opacity: 0.4;
+}
+
+.caption-arriba{
+	top: 10px;
+	left: 10px;
+	right: 800px;
+	position: absolute;
+}
+
+.caption-arriba h5{
+	font-weight: 600;
+    position: absolute;
+    font-size: xx-large;
+    padding-left: 10%;
+    padding-right: 20%
+}
+
+.caption-abajo{
+	right: 10px;
+	bottom: 10px;
+
+}
+
+.caption-abajo a{
+	background-position: center;
+    margin-top: 100%;
+    text-decoration: none;
+    background-color: #c1c0c014;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    padding: 1%;
+    box-shadow: 2px 2px 8px rgba(0,0,0.1);
+    margin-left: 80%
+}
+
+
+
+
+
+.caption-abajo p{
+	right: 10px;
+	bottom: 60px;
+	font-weight: 600;
+	position: absolute;
+	font-size: 25px;
+}

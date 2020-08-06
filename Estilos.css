@@ -1,0 +1,17 @@
+@import url("banner.css");
+@import url("cards.css");
+@import url("navegador-footer.css");
+
+body{
+	overflow-x: hidden;
+	background-color: black;
+	color: white;
+}
+
+h2{
+	text-align: center;
+}
+
+img{
+	max-width: 100%;
+}
